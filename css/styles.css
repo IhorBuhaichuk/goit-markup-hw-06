@@ -728,7 +728,7 @@ ul {
 .register-form-wrap {
   display: block;
   position: relative;
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 .register-form-wrap:last-child {
   margin-bottom: 0;
@@ -752,6 +752,7 @@ ul {
   outline: transparent;
 }
 .register-form-message {
+  margin-bottom: 20px;
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -788,10 +789,13 @@ ul {
   letter-spacing: 0.01em;
   color: #757575;
 }
+.modal-btn-icon:hover {
+  fill: var(--acent-txt-cl);
+}
 
 .register-form-title {
+  margin-bottom: 12px;
   display: block;
-  margin-bottom: 30px;
   font-weight: 700;
   font-size: 20px;
   line-height: calc(23 / 20);
@@ -799,9 +803,6 @@ ul {
   letter-spacing: 0.03em;
 
   color: #212121;
-}
-.register-form-group {
-  margin-bottom: 20px;
 }
 .register-form-agreement {
   display: flex;
